@@ -1,0 +1,25 @@
+#divForm {
+    height: 20vh;
+    width: 20vw;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+}
+
+#divForm>h2 {
+    text-align: center;
+}
+
+#inputColor,
+#divForm>input[type=submit]:nth-child(3) {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 18vw;
+}
